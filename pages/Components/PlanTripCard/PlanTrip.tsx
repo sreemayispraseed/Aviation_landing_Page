@@ -9,6 +9,7 @@ const PlanTrip = () => {
         backgroundImage: `url(${plane.src})`,
         width: '100%',
         height: '800px',
+        backgroundRepeat:'no-repeat'
     }}
     >
     <div className={styles.paragraph_container}>

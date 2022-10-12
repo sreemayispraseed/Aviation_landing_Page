@@ -5,7 +5,8 @@ import styles from '../styles/Home.module.css'
 import Header from './Components/Header'
 import PlanTripCard from './Components/PlanTripCard/PlanTrip'
 import background from '../assets/background.png'
-
+import ImageCard from './Components/ImageCard/ImageCard'
+import lady from '../assets/lady.png'
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -29,6 +30,11 @@ const Home: NextPage = () => {
       
     </div>
     <PlanTripCard/>
+    <ImageCard 
+     image={lady}
+     bigtitle={'Managed Fleet'}
+     title={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need'}
+     />
       
     </div>
   )

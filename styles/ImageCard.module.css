@@ -1,0 +1,37 @@
+.image_card_container{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    
+}
+.image_container{
+    max-width: 500px;
+}
+
+.explore_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 150px;
+    padding: 5px;
+}
+.explore_text{
+    color: #d9b620;
+    font-size: 15px;
+    height: 15px;
+}
+.bigblue_text{
+    font-size: 3rem;
+    color: #292e81;
+}
+.para_container{
+    max-width: 450px;
+    font-size: 18px;
+    color: rgb(114, 110, 110);
+
+}
+.right_side_text_container{
+    display: grid;
+    max-width: 500px;
+    /* grid-template-rows: 0fr 1fr 1fr ; */
+}
