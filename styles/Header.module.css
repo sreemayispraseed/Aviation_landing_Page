@@ -1,0 +1,24 @@
+.header_container{
+    display: flex;
+    align-items: center;
+    padding: .5rem 2.5rem;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.24) ;
+      
+}
+.header_center_details_container{
+    display: flex;
+    color: white;
+    gap: 25px;
+    
+    
+}
+.headernavlink_container{
+    font-size: 18px;
+}
+.share_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    
+}

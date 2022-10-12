@@ -1,0 +1,25 @@
+.container{
+    cursor: pointer;
+}
+.main_text_container{
+    margin-top: 25%;
+    padding-left: 3.5rem;
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.small_orange_text{
+    font-size: 1rem;
+    color: #d9b620;
+}
+.big_text{
+    margin: 0;
+    font-size: 5rem;
+    color: white;
+    font-weight: 300;
+}
+.small_white_text{
+    color: white;
+    font-weight: 300;
+}
