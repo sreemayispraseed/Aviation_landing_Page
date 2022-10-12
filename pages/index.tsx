@@ -11,6 +11,7 @@ import ServiceCard from './Components/ServiceCard/ServiceCard'
 import flightinside from '../assets/flightinside.png'
 import LuxuryCard from './Components/luxuryCard/LuxuryCard'
 import luxurybreaks from '../assets/luxury-breaks.png'
+import FlightCard from './Components/FlightCard/FlightCard'
 
 import image1 from "../assets/image1.png"
 import image2 from '../assets/image2.png'
@@ -69,7 +70,8 @@ const Home: NextPage = () => {
       bigtitle={'Luxury Breaks'}
       title={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need'}
       />
-      
+     <FlightCard/>
+
     </div>
   )
 }

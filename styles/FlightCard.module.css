@@ -1,0 +1,32 @@
+.left_side_text_container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 3.5rem;
+    gap: 15px;
+    
+    
+}
+.bigblue_text{
+    font-size: 3rem;
+    color: white;
+}
+.para_container{
+    max-width: 450px;
+    font-size: 18px;
+    color: rgb(240, 234, 234);
+
+}
+.explore_text{
+    color: #d9b620;
+    font-size: 15px;
+    
+}
+.explore_container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    max-width: 150px;
+    padding: 5px;
+    
+}
