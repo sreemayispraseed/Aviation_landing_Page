@@ -1,8 +1,9 @@
 .paragraph_container{
-    max-width: 450px;
+    max-width: 480px;
     display: flex;
     flex-direction: column;
     gap: 10px;
+    margin-top: 3.5rem;
 
 }
 .blue_Text_container{
@@ -18,9 +19,12 @@
 .text_orange{
     font-size: 23px;
     color: #d9b620;
+    padding-right: 1.5rem;
 }
 .paragraph1{
     color: rgba(119, 116, 116, 0.897);
+    max-width: 500px;
+    
 }
 .right_side_box{
     position: relative;

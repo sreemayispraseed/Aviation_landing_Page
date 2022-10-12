@@ -23,3 +23,30 @@
     color: white;
     font-weight: 300;
 }
+.service_card_container{
+    background-color: #faf7ea;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding: 3rem;
+}
+.bigblue_text{
+    font-size: 3rem;
+    color: #292e81;
+}
+.explore_text{
+    font-size: 1rem;
+    color: #d9b620;
+}
+.service_flex_card{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 3rem .5rem;
+    justify-content: center;
+    gap: 5.5rem;
+    
+}
+.lightgrey_text{
+    color: lightgray;
+    padding: .5rem 4.5rem;
+}   

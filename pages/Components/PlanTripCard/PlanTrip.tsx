@@ -8,7 +8,7 @@ const PlanTrip = () => {
     style={{
         backgroundImage: `url(${plane.src})`,
         width: '100%',
-        height: '800px',
+        height: '750px',
         backgroundRepeat:'no-repeat'
     }}
     >
