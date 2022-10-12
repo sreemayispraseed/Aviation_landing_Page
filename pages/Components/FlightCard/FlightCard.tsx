@@ -19,6 +19,7 @@ const FlightCard = () => {
        <Image src={arrow2}/>
      </div>     
      </div>
+     
 
         
     </div>

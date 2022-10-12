@@ -12,10 +12,13 @@ import flightinside from '../assets/flightinside.png'
 import LuxuryCard from './Components/luxuryCard/LuxuryCard'
 import luxurybreaks from '../assets/luxury-breaks.png'
 import FlightCard from './Components/FlightCard/FlightCard'
-
+import bottomimage from '../assets/bottomimage.png'
+import bottom2 from '../assets/bottom2.png'
+import bottom3 from '../assets/bottom3.png'
 import image1 from "../assets/image1.png"
 import image2 from '../assets/image2.png'
 import image3 from '../assets/image3.png'
+import Hightlights from './Components/HighlightsCard/Hightlights'
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -70,8 +73,24 @@ const Home: NextPage = () => {
       bigtitle={'Luxury Breaks'}
       title={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need'}
       />
-     <FlightCard/>
-
+      <FlightCard/>
+      <div className={styles.hightlight_container}>
+      <p className={styles.bigblue_text}>Find the Best Service For You</p>
+      <p className={styles.explore_text}>It's Arrived,The Premium Economy You've Been Waiting For</p>
+        <div className={styles.hightlight_flex}>
+        <Hightlights
+     image={bottom3}
+     />
+     <Hightlights
+     image={bottomimage}
+     />
+     <Hightlights
+     image={bottom2}
+     />
+        </div>
+      
+      </div>
+    
     </div>
   )
 }

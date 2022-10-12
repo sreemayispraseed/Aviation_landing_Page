@@ -1,0 +1,19 @@
+.bluetext{
+    color: #292e81;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: left;
+    padding: 10px 0px;
+    
+}
+.news_card_container{
+    max-width: 350px;
+    padding: 10px;
+
+}
+.orangetext{
+    text-align: left;
+    color: #d9b620;
+    padding: 5px 0;
+    
+}

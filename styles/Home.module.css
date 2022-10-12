@@ -18,6 +18,7 @@
     font-size: 5rem;
     color: white;
     font-weight: 300;
+    padding: 10px;
 }
 .small_white_text{
     color: white;
@@ -33,6 +34,7 @@
 .bigblue_text{
     font-size: 3rem;
     color: #292e81;
+    padding: 15px;
 }
 .explore_text{
     font-size: 1rem;
@@ -50,3 +52,15 @@
     color: lightgray;
     padding: .5rem 4.5rem;
 }   
+.hightlight_container{
+    text-align: center;
+    padding: 5rem 1rem;
+    
+}
+.hightlight_flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    margin-top: 2.5rem;
+}
