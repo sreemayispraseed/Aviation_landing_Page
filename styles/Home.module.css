@@ -31,6 +31,7 @@
     text-align: center;
     padding: 3rem;
 }
+
 .bigblue_text{
     font-size: 3rem;
     color: #292e81;
@@ -63,4 +64,13 @@
     gap: 5rem;
     justify-content: center;
     margin-top: 2.5rem;
+}
+.dubai_container{
+    
+    text-align: center;
+    background-position: center;padding: 5.5rem 1rem;
+}
+.flex_container_logo{
+    background-color: #faf7ea;
+    height: 500px;
 }

@@ -18,7 +18,9 @@ import bottom3 from '../assets/bottom3.png'
 import image1 from "../assets/image1.png"
 import image2 from '../assets/image2.png'
 import image3 from '../assets/image3.png'
+import dubailogo from '../assets/dubai-logo.png'
 import Hightlights from './Components/HighlightsCard/Hightlights'
+import DubaiCard from './Components/DubaiCard/DubaiCard'
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -42,6 +44,22 @@ const Home: NextPage = () => {
       
     </div>
     <PlanTripCard/>
+    <div className={styles.flex_container_logo}>
+    <div className={styles.dubai_container}
+     style={{
+      backgroundImage: `url(${dubailogo.src})`,
+      width: '100%',
+      height:'400px',
+      backgroundRepeat:'no-repeat',
+    }}>
+    <p className={styles.explore_text}> Planning your Trip?</p>
+    <p className={styles.bigblue_text}>DUBAI Tourist Visa</p>
+   
+    </div>
+    <DubaiCard/>
+    </div>
+    
+    
     <ImageCard 
      image={lady}
      bigtitle={'Managed Fleet'}

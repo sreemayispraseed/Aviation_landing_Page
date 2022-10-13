@@ -9,7 +9,8 @@ const FlightCard = () => {
         backgroundImage: `url(${flight.src})`,
         width: '100%',
         height: '500px',
-        backgroundRepeat:'no-repeat'
+        backgroundRepeat:'no-repeat',
+        backgroundPosition:'center'
       }} >
      <div className={styles.left_side_text_container}>
       <p className={styles.bigblue_text}>Explore the world</p>
