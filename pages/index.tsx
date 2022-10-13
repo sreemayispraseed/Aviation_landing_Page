@@ -21,6 +21,7 @@ import image3 from '../assets/image3.png'
 import dubailogo from '../assets/dubai-logo.png'
 import Hightlights from './Components/HighlightsCard/Hightlights'
 import DubaiCard from './Components/DubaiCard/DubaiCard'
+import Footer from './Components/Footer/Footer'
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -108,8 +109,12 @@ const Home: NextPage = () => {
         </div>
       
       </div>
-    
+      <div className={styles.footer_container}>
+      <Footer/>
+      </div>
+      
     </div>
+   
   )
 }
 
