@@ -18,7 +18,7 @@ const ImageCard = ({image,title,bigtitle}:PropsTypes) => {
      <p className={styles.bigblue_text}>{bigtitle}</p>
      <p className={styles.para_container}>{title}</p>
      <div className={styles.explore_container}>
-       <label className={styles.explore_text}>Explore Services</label>
+       <a href='' className={styles.explore_text}>Explore Services</a>
        <Image src={arrow2}/>
      </div>     
      </div>

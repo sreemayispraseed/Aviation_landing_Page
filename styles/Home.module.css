@@ -5,8 +5,7 @@
     margin-top: 25%;
     padding-left: 3.5rem;
     display: flex;
-    flex-direction: column;
-   
+    flex-direction: column; 
 }
 
 .small_orange_text{
@@ -55,8 +54,7 @@
 }   
 .hightlight_container{
     text-align: center;
-    padding: 5rem 1rem;
-    
+    padding: 5rem 1rem;  
 }
 .hightlight_flex{
     display: flex;
@@ -66,18 +64,27 @@
     margin-top: 2.5rem;
 }
 .dubai_container{
-    
     text-align: center;
     background-position: center;padding: 5.5rem 1rem;
 }
 .flex_container_logo{
     background-color: #faf7ea;
-    height: 500px;
+    height: 100%;
 }
 .footer_container{
-    
     width: 100%;
     height: 100%;
     background-image: url('../assets/blue.png');
 
+}
+.btn_submit{
+    width: 150px;
+    height: 50px;
+    font-size: 18px;
+    color: white;
+    background-color: #292e81;
+    border: none;  
+}
+.button_container{
+    
 }

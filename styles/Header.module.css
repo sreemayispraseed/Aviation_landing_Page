@@ -15,10 +15,25 @@
 }
 .headernavlink_container{
     font-size: 18px;
+
+}
+.headernavlink_container:hover,
+.headernavlink_container:focus,
+.headernavlink_container:active{
+    color: orange;
 }
 .share_container{
     display: flex;
     align-items: center;
     gap: 10px;
+    cursor: pointer;
     
+}
+.share{
+    cursor: pointer;
+}
+.share_container:hover,
+.share_container:focus,
+.share_container:active{
+    color: orange;
 }

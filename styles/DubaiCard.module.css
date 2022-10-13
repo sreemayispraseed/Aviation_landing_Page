@@ -1,3 +1,32 @@
 .dubai_card_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.5rem;
+    flex-wrap: wrap;
           
+}
+.options_container,.name{
+    background-color: #faf7ea;
+    border:none;
+    padding: 10px;
+    color: rgb(27, 26, 26);
+    
+    
+}
+
+.heading{
+    font-size: 15px;
+    color: rgb(82, 79, 79);
+    text-align: left;
+    
+}
+.form_container{
+    display: flex;
+    flex-direction: column;
+    max-width: 150px    ;
+    border-bottom: 1px solid #d9b620;
+    flex-wrap: wrap;
+    
+    
 }

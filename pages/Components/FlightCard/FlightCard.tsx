@@ -16,7 +16,7 @@ const FlightCard = () => {
       <p className={styles.bigblue_text}>Explore the world</p>
       <p className={styles.para_container}>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need</p>
       <div className={styles.explore_container}>
-       <label className={styles.explore_text}>View More</label>
+       <a href="" className={styles.explore_text}>View More</a>
        <Image src={arrow2}/>
      </div>     
      </div>

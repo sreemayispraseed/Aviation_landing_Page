@@ -2,7 +2,7 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Header from './Components/Header'
+import Header from './Components/Header/Header'
 import PlanTripCard from './Components/PlanTripCard/PlanTrip'
 import background from '../assets/background.png'
 import ImageCard from './Components/ImageCard/ImageCard'
@@ -44,29 +44,40 @@ const Home: NextPage = () => {
       </div>
       
     </div>
+    <section id='plantripcard'>
     <PlanTripCard/>
-    <div className={styles.flex_container_logo}>
+    </section>
+    
+    <section id='dubaicar' className={styles.flex_container_logo}>
     <div className={styles.dubai_container}
      style={{
       backgroundImage: `url(${dubailogo.src})`,
       width: '100%',
-      height:'400px',
+      height:'100%',
       backgroundRepeat:'no-repeat',
     }}>
     <p className={styles.explore_text}> Planning your Trip?</p>
     <p className={styles.bigblue_text}>DUBAI Tourist Visa</p>
-   
-    </div>
+    <div className={styles.dubai_container}>
     <DubaiCard/>
     </div>
+    <div className={styles.button_container}>
+    <button className={styles.btn_submit}  >Submit</button>
+    </div>
     
+     </div>
     
+    </section>
+    
+    <section id='imagecard'>
     <ImageCard 
      image={lady}
      bigtitle={'Managed Fleet'}
      title={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need'}
      />
-     <div className={styles.service_card_container}>
+    </section>
+    
+     <section id='servicecard' className={styles.service_card_container}>
       <p className={styles.bigblue_text}>Find the Best Service For You</p>
       <p className={styles.explore_text}>It's Arrived,The Premium Economy You've Been Waiting For</p>
       <div className={styles.service_flex_card}>
@@ -80,20 +91,28 @@ const Home: NextPage = () => {
        image={image1}
        text={''}/>
        </div>
-     </div>
+     </section>
+     <section id='flightcard'>
      <ImageCard 
      image={flightinside}
      bigtitle={'Our Charter'}
      title={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need'}
      />
+     </section>
+     
      <label className={styles.lightgrey_text}>A6 AVIATION GlOBAL AIR CHARTER SERVICES</label>
-      <LuxuryCard 
+     <section id='luxurycard'>
+     <LuxuryCard 
       image={luxurybreaks}
       bigtitle={'Luxury Breaks'}
       title={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need'}
       />
+     </section>
+      <section id='flight_card_id'>
       <FlightCard/>
-      <div className={styles.hightlight_container}>
+      </section>
+      
+      <section id='highlights' className={styles.hightlight_container}>
       <p className={styles.bigblue_text}>Find the Best Service For You</p>
       <p className={styles.explore_text}>It's Arrived,The Premium Economy You've Been Waiting For</p>
         <div className={styles.hightlight_flex}>
@@ -108,10 +127,10 @@ const Home: NextPage = () => {
      />
         </div>
       
-      </div>
-      <div className={styles.footer_container}>
+      </section>
+      <section id='footer' className={styles.footer_container}>
       <Footer/>
-      </div>
+      </section>
       
     </div>
    
