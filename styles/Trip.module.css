@@ -46,3 +46,15 @@
     width: 1px;
     background-color: #d9b620;
 }
+@media screen and (max-width:1200px){
+    .right_side_box{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:400px){
+    .paragraph1{
+        font-size: 12px;
+    }
+    
+}

@@ -64,11 +64,8 @@ const Home: NextPage = () => {
     <div className={styles.button_container}>
     <button className={styles.btn_submit}  >Submit</button>
     </div>
-    
-     </div>
-    
+     </div> 
     </section>
-    
     <section id='imagecard'>
     <ImageCard 
      image={lady}
@@ -76,7 +73,6 @@ const Home: NextPage = () => {
      title={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need'}
      />
     </section>
-    
      <section id='servicecard' className={styles.service_card_container}>
       <p className={styles.bigblue_text}>Find the Best Service For You</p>
       <p className={styles.explore_text}>It's Arrived,The Premium Economy You've Been Waiting For</p>
@@ -98,8 +94,7 @@ const Home: NextPage = () => {
      bigtitle={'Our Charter'}
      title={'There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which dont look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need'}
      />
-     </section>
-     
+     </section> 
      <label className={styles.lightgrey_text}>A6 AVIATION GlOBAL AIR CHARTER SERVICES</label>
      <section id='luxurycard'>
      <LuxuryCard 

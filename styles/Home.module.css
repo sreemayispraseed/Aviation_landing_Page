@@ -88,3 +88,21 @@
 .button_container{
     
 }
+@media screen and (max-width:465px){
+    .lightgrey_text{
+        font-size: 12px;
+    }
+    
+}
+@media screen and (max-width:386px){
+    .lightgrey_text{
+        font-size: 9px;
+    }
+    
+}
+@media screen and (max-width:325px){
+    .lightgrey_text{
+       font-size: 5px;
+    }
+    
+}
